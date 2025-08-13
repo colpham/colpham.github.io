@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Colpham - Spreading the Gospel</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      color: #333;
+      background-color: #f9f9f9;
+    }
+
+    header {
+      background: #2e3a59;
+      color: #fff;
+      padding: 20px 10%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    .logo {
+      font-size: 1.8rem;
+      font-weight: bold;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 15px;
+      font-size: 1rem;
+    }
+
+    .cta-button {
+      background: #f4d35e;
+      color: #333;
+      padding: 10px 20px;
+      border: none;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 5px;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 60px 10% 40px;
+      background: #e9f1ff;
+    }
+
+    .hero h1 {
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+    }
+
+    .hero p {
+      font-size: 1.2rem;
+      margin-bottom: 30px;
+    }
+
+    section {
+      padding: 60px 10%;
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 40px;
+      font-size: 2rem;
+    }
+
+    .feature-grid, .app-showcase {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+
+    .feature-item, .app-card {
+      flex: 1 1 300px;
+      background: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    }
+
+    .testimonials blockquote {
+      background: #fff;
+      padding: 20px;
+      margin: 20px auto;
+      max-width: 700px;
+      border-left: 5px solid #f4d35e;
+    }
+
+    .testimonials cite {
+      display: block;
+      margin-top: 10px;
+      font-style: italic;
+      color: #666;
+    }
+
+    .cta {
+      background: #2e3a59;
+      color: white;
+      text-align: center;
+      padding: 50px 10%;
+    }
+
+    .cta a {
+      background: #f4d35e;
+      padding: 12px 24px;
+      color: #333;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: bold;
+      display: inline-block;
+      margin-top: 20px;
+    }
+
+    form {
+      max-width: 600px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+    }
+
+    form input, form textarea {
+      padding: 10px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 1rem;
+    }
+
+    form button {
+      background: #2e3a59;
+      color: #fff;
+      padding: 12px;
+      border: none;
+      font-size: 1rem;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    footer {
+      text-align: center;
+      background: #222;
+      color: #aaa;
+      padding: 20px 10%;
+      font-size: 0.9rem;
+    }
+
+    footer a {
+      color: #f4d35e;
+      text-decoration: none;
+    }
+
+    @media (max-width: 768px) {
+      header, section, .cta {
+        padding: 20px;
+      }
+
+      nav {
+        width: 100%;
+        text-align: center;
+        margin-top: 10px;
+      }
+
+      nav a {
+        display: inline-block;
+        margin: 10px;
+      }
+
+      .hero h1 {
+        font-size: 2rem;
+      }
+
+      .feature-item, .app-card {
+        flex: 1 1 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo">Colpham</div>
+    <nav>
+      <a href="#features">Features</a>
+      <a href="#apps">Apps</a>
+      <a href="#testimonials">Testimonials</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a href="#get-started" class="cta-button">Get Started</a>
+  </header>
+
+  <section class="hero">
+    <h1>Building Digital Tools to Spread the Gospel</h1>
+    <p>Colpham builds powerful, faith-centered apps to help ministries grow, connect, and share the Good News.</p>
+    <a href="#get-started" class="cta-button">Start Your Project</a>
+  </section>
+
+  <section id="features">
+    <h2>What We Offer</h2>
+    <div class="feature-grid">
+      <div class="feature-item">
+        <h3>Custom Church Apps</h3>
+        <p>Equip your congregation with tools like livestreaming, giving, and community features.</p>
+      </div>
+      <div class="feature-item">
+        <h3>Bible Study Tools</h3>
+        <p>Interactive devotionals, reading plans, and discussion guides to grow in the Word.</p>
+      </div>
+      <div class="feature-item">
+        <h3>Evangelism Apps</h3>
+        <p>Empowering believers to share their faith with confidence and clarity, digitally and personally.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="apps">
+    <h2>Our Gospel-Centered Apps</h2>
+    <div class="app-showcase">
+      <div class="app-card">
+        <h3>FaithShare</h3>
+        <p>Train and equip believers to share the Gospel wherever they go.</p>
+      </div>
+      <div class="app-card">
+        <h3>GrowTogether</h3>
+        <p>Help small groups and churches stay spiritually connected and growing.</p>
+      </div>
+      <div class="app-card">
+        <h3>PrayerNet</h3>
+        <p>A digital prayer wall to unite people in intercession and thanksgiving.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="testimonials" class="testimonials">
+    <h2>What Leaders Are Saying</h2>
+    <blockquote>
+      “Colpham helped us launch an app that not only served our members but reached people we never could before.”
+      <cite>— Pastor Daniel, CityLight Church</cite>
+    </blockquote>
+    <blockquote>
+      “Their tech is solid, but their heart for the Gospel is what really stands out.”
+      <cite>— Sarah M., Youth Ministry Director</cite>
+    </blockquote>
+  </section>
+
+  <section id="get-started" class="cta">
+    <h2>Ready to Build Your Gospel App?</h2>
+    <p>Let’s work together to bring your vision to life.</p>
+    <a href="#contact">Schedule a Free Consultation</a>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <form>
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Email Address" required />
+      <textarea name="message" placeholder="How can we help?" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 Colpham. All rights reserved.</p>
+    <p><a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+  </footer>
+
+</body>
+</html>
